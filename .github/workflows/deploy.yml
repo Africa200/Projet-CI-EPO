@@ -8,16 +8,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Pages 🚀
+      - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      - name: Upload files 📂
+      - name: Upload files
         uses: actions/upload-pages-artifact@v1
         with:
           path: .
 
-      - name: Deploy to GitHub Pages 🎉
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
