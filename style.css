@@ -56,7 +56,7 @@ button:hover {
   background-color: #005fa3;
 }
 
-.about, .formations, .contact {
+.propos, .formations, .contact {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
@@ -100,7 +100,7 @@ footer {
     padding: 1rem;
   }
 
-  .about, .formations, .contact {
+  .propos, .formations, .contact {
     padding: 1rem;
   }
 
